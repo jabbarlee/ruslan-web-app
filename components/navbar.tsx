@@ -14,6 +14,8 @@ const navItems = [
 export default function Navbar() {
   const pathname = usePathname();
 
+  console.log(pathname);
+
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-teal-200/40 bg-white/90 backdrop-blur-sm shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,3 +43,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+//jst a comment
