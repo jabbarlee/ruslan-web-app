@@ -17,13 +17,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-teal-200/40 bg-white/90 backdrop-blur-sm shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
-          <Link
-            href="/"
-            className="text-xl font-bold tracking-tight text-teal-600 transition-colors hover:text-teal-700"
-          >
-            Portfolio
-          </Link>
+        <div className="flex h-16 items-center justify-center">
           <div className="flex items-center gap-1 sm:gap-2">
             {navItems.slice(1).map((item) => {
               const isActive = pathname === item.href;
@@ -47,4 +41,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
