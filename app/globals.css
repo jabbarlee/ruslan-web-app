@@ -30,6 +30,27 @@ body {
   position: relative;
 }
 
+/* DOCX Preview Styles */
+.docx-container {
+  background: #fff;
+}
+
+.docx-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  padding: 96px;
+  min-height: 11in;
+}
+
+@media print {
+  .docx-wrapper {
+    box-shadow: none;
+    padding: 0;
+  }
+}
+
 /* Visible background pattern with teal elements */
 body::before {
   content: "";
