@@ -31,10 +31,6 @@ export default function ResearchPaper() {
           experimental: false,
           trimXmlDeclaration: true,
           useBase64URL: false,
-          useMathMLPolyfill: true,
-          showChanges: false,
-          showInsertions: false,
-          showDeletions: false,
         });
 
         setLoading(false);
