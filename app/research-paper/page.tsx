@@ -41,6 +41,8 @@ export default function ResearchPaper() {
       }
     };
 
+    console.log("Document loaded successfully");
+
     loadDocument();
   }, []);
 
