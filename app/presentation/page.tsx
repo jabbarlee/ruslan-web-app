@@ -32,8 +32,8 @@ export default function Presentation() {
             <button
               onClick={() => {
                 const link = document.createElement("a");
-                link.href = "/research-presentation.pdf";
-                link.download = "research-presentation.pdf";
+                link.href = "/research-presentation-new.pdf";
+                link.download = "research-presentation-new.pdf";
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);

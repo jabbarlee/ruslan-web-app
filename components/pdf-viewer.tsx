@@ -148,7 +148,7 @@ export default function PDFViewer() {
           )}
           {!error && (
             <Document
-              file="/research-presentation.pdf"
+              file="/research-presentation-new.pdf"
               onLoadSuccess={onDocumentLoadSuccess}
               onLoadError={onDocumentLoadError}
               loading={
